@@ -1,4 +1,4 @@
-interface Props {
+export interface Props {
     name: string,
     age: number,
     isMarried: boolean,
@@ -6,6 +6,7 @@ interface Props {
 }
 
 export const Person = (props: Props) => {
+
     return(
         <>
             <div>
